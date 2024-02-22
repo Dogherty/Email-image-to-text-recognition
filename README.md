@@ -10,7 +10,7 @@ This Python script employs `OpenCV` and `Tesseract OCR` to extract email address
 2. Preprocesses the image for better OCR results:
 3. Resizes the image.
 4. Converts it to grayscale.
-5. Enhances contrast using CLAHE.
+5. Enhances contrast using CLAHE (Contrast Limited Adaptive Histogram Equalization).
 6. Reduces noise with median blurring.
 7. Sharpens edges.
 8. Binarizes the image using thresholding.
